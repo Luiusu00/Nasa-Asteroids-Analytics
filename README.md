@@ -1,16 +1,5 @@
 # ☄️ NASA Asteroids Analytics Dashboard
- 
-<div align="center">
-![Python](https://img.shields.io/badge/Python-3.14-blue?style=for-the-badge&logo=python&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-1.x-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-2.x-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![Plotly](https://img.shields.io/badge/Plotly-5.x-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
- 
 **Análise interativa de asteroides próximos da Terra utilizando dados oficiais da NASA**
- 
-</div>
----
  
 ## 📌 Sobre o Projeto
  
@@ -70,27 +59,7 @@ nasa-asteroids-analytics/
 | **Streamlit** | Framework do dashboard web |
 | **Jupyter Notebook** | Análise exploratória e ETL |
 | **NASA NeoWs API** | Fonte dos dados |
- 
----
- 
-## 📊 Pipeline de Dados
- 
-```
-NASA API → asteroids_data.csv
-              ↓
-       [Jupyter Notebook]
-       - Conversão de tipos (datetime)
-       - Tratamento de valores nulos (short_name)
-       - Criação da coluna diameter_medium
-       - Filtragem de asteroides perigosos
-       - Agregação por ano de observação
-              ↓
-   clean_asteroids_data.csv
-   dangest_asteroids.csv
-   observation_year.csv
-              ↓
-     [Streamlit Dashboard]
-```
+| **Power BI** | Outra fonte de dashboard |
  
 ---
  
@@ -136,19 +105,10 @@ Acesse `http://localhost:8501` no navegador.
  
 ## 🗃️ Fonte dos Dados
  
-Os dados foram obtidos via **[NASA NeoWs (Near Earth Object Web Service)](https://api.nasa.gov/)**, API pública da NASA que fornece informações sobre asteroides próximos da Terra, incluindo dados orbitais, diâmetros estimados e registros de aproximação.
+Os dados foram obtidos via **(https://www.kaggle.com/datasets/lion8beasttmkc/nasa-near-earth-asteroids-dataset)**, que fornece informações sobre asteroides próximos da Terra, incluindo dados orbitais, diâmetros estimados e registros de aproximação.
  
 ---
  
 ## 👨‍💻 Autor
  
-Desenvolvido por **[Seu Nome]**
- 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/seu-perfil)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/seu-usuario)
- 
----
- 
-<div align="center">
-  <sub>Feito com 🪐 e dados da NASA</sub>
-</div>
+Desenvolvido por **Luis Domingos**
