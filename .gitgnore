@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -12,4 +13,11 @@ __pycache__/
 env/
 venv/
 
-*.idea/
+.idea/
+.vscode/
+.ipynb_checkpoints/
+.streamlit/secrets.toml
+
+# Sistema
+.DS_Store
+Thumbs.db
