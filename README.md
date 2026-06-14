@@ -1,6 +1,7 @@
 # ☄️ NASA Asteroids Analytics Dashboard
 **Análise interativa de asteroides próximos da Terra utilizando dados oficiais da NASA**
-***https://nasa-asteroids-analytics.streamlit.app/***
+
+**https://nasa-asteroids-analytics.streamlit.app/**
  
 ## 📌 Sobre o Projeto
  
