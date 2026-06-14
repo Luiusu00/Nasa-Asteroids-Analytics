@@ -1,7 +1,7 @@
 # ☄️ NASA Asteroids Analytics Dashboard
 **Análise interativa de asteroides próximos da Terra utilizando dados oficiais da NASA**
 
-**https://nasa-asteroids-analytics.streamlit.app/**
+🔗 **[Acessar o Dashboard](https://nasa-asteroids-analytics.streamlit.app/)**
  
 ## 📌 Sobre o Projeto
  
@@ -107,7 +107,7 @@ Acesse `http://localhost:8501` no navegador.
  
 ## 🗃️ Fonte dos Dados
  
-Os dados foram obtidos via **(https://www.kaggle.com/datasets/lion8beasttmkc/nasa-near-earth-asteroids-dataset)**, que fornece informações sobre asteroides próximos da Terra, incluindo dados orbitais, diâmetros estimados e registros de aproximação.
+Os dados foram obtidos no **[Kaggle](https://www.kaggle.com/datasets/lion8beasttmkc/nasa-near-earth-asteroids-dataset)**, que fornece informações sobre asteroides próximos da Terra, incluindo dados orbitais, diâmetros estimados e registros de aproximação.
  
 ---
  
